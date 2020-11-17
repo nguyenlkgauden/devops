@@ -6,7 +6,7 @@
    - Create Dockerfile with image nginx:latest to run static web 
    - Create  .gitlab-ci.yml pipeline 
 4. Access project running on GKE
-http://35.187.244.179/
+http://35.186.151.143/
 5. Installed grafana on GKE
 6. Installed EFK stack
 
