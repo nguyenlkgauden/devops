@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web-app-final
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: web-app-final
+  template:
+    metadata:
+      labels:
+        app: web-app-final
+    spec:
+      containers:
+      - name: nginx
+        image: nguyenlk/devops:latest
+        ports:
+        - containerPort: 80
