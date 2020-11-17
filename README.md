@@ -7,5 +7,6 @@
    - Create  .gitlab-ci.yml pipeline 
 4. Access project running on GKE
 http://35.187.244.179/
-
+5. Installed grafana on GKE
+6. Installed EFK stack
 
